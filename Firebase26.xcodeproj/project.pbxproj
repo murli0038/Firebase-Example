@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254A572C23B4B19A00DC060A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A572B23B4B19A00DC060A /* AppDelegate.swift */; };
+		254A572E23B4B19A00DC060A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A572D23B4B19A00DC060A /* SceneDelegate.swift */; };
+		254A573023B4B19A00DC060A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A572F23B4B19A00DC060A /* ViewController.swift */; };
+		254A573323B4B19A00DC060A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254A573123B4B19A00DC060A /* Main.storyboard */; };
+		254A573623B4B19A00DC060A /* Firebase26.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 254A573423B4B19A00DC060A /* Firebase26.xcdatamodeld */; };
+		254A573823B4B19E00DC060A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254A573723B4B19E00DC060A /* Assets.xcassets */; };
+		254A573B23B4B19E00DC060A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254A573923B4B19E00DC060A /* LaunchScreen.storyboard */; };
+		254A574623B4B19E00DC060A /* Firebase26Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A574523B4B19E00DC060A /* Firebase26Tests.swift */; };
+		254A575123B4B19E00DC060A /* Firebase26UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A575023B4B19E00DC060A /* Firebase26UITests.swift */; };
+		254A575F23B4B33D00DC060A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 254A575E23B4B33D00DC060A /* GoogleService-Info.plist */; };
+		25F77B447B0C8FA0F393784D /* Pods_Firebase26.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEEA99041A4EC408D5BD7E /* Pods_Firebase26.framework */; };
+		335EE0C4CC75E5D2D44EF595 /* Pods_Firebase26_Firebase26UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09F4A37C4C4428A6A6B5444 /* Pods_Firebase26_Firebase26UITests.framework */; };
+		DB2F4CBF509C4078471C068A /* Pods_Firebase26Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E16641E69A9C4070A8A815B /* Pods_Firebase26Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		254A574223B4B19E00DC060A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254A572023B4B19A00DC060A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254A572723B4B19A00DC060A;
+			remoteInfo = Firebase26;
+		};
+		254A574D23B4B19E00DC060A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254A572023B4B19A00DC060A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254A572723B4B19A00DC060A;
+			remoteInfo = Firebase26;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A65DB31A933AE63FC144E2F /* Pods-Firebase26.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase26.debug.xcconfig"; path = "Target Support Files/Pods-Firebase26/Pods-Firebase26.debug.xcconfig"; sourceTree = "<group>"; };
+		13CEEA99041A4EC408D5BD7E /* Pods_Firebase26.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase26.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B52CE458113E729F43928A0 /* Pods-Firebase26-Firebase26UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase26-Firebase26UITests.debug.xcconfig"; path = "Target Support Files/Pods-Firebase26-Firebase26UITests/Pods-Firebase26-Firebase26UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		254A572823B4B19A00DC060A /* Firebase26.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase26.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254A572B23B4B19A00DC060A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		254A572D23B4B19A00DC060A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		254A572F23B4B19A00DC060A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		254A573223B4B19A00DC060A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		254A573523B4B19A00DC060A /* Firebase26.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Firebase26.xcdatamodel; sourceTree = "<group>"; };
+		254A573723B4B19E00DC060A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		254A573A23B4B19E00DC060A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		254A573C23B4B19E00DC060A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254A574123B4B19E00DC060A /* Firebase26Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Firebase26Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254A574523B4B19E00DC060A /* Firebase26Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase26Tests.swift; sourceTree = "<group>"; };
+		254A574723B4B19E00DC060A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254A574C23B4B19E00DC060A /* Firebase26UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Firebase26UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254A575023B4B19E00DC060A /* Firebase26UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase26UITests.swift; sourceTree = "<group>"; };
+		254A575223B4B19E00DC060A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254A575E23B4B33D00DC060A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54CD3A5B826A494A558BEB4D /* Pods-Firebase26.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase26.release.xcconfig"; path = "Target Support Files/Pods-Firebase26/Pods-Firebase26.release.xcconfig"; sourceTree = "<group>"; };
+		7E16641E69A9C4070A8A815B /* Pods_Firebase26Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase26Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0A1BC96FF10EB4F3DEE239 /* Pods-Firebase26Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase26Tests.debug.xcconfig"; path = "Target Support Files/Pods-Firebase26Tests/Pods-Firebase26Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A00AB56108D9D4B82A0E6541 /* Pods-Firebase26Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase26Tests.release.xcconfig"; path = "Target Support Files/Pods-Firebase26Tests/Pods-Firebase26Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B09F4A37C4C4428A6A6B5444 /* Pods_Firebase26_Firebase26UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase26_Firebase26UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3082572DACEA2EB9EEC860C /* Pods-Firebase26-Firebase26UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase26-Firebase26UITests.release.xcconfig"; path = "Target Support Files/Pods-Firebase26-Firebase26UITests/Pods-Firebase26-Firebase26UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		254A572523B4B19A00DC060A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F77B447B0C8FA0F393784D /* Pods_Firebase26.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A573E23B4B19E00DC060A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2F4CBF509C4078471C068A /* Pods_Firebase26Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A574923B4B19E00DC060A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335EE0C4CC75E5D2D44EF595 /* Pods_Firebase26_Firebase26UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		254A571F23B4B19A00DC060A = {
+			isa = PBXGroup;
+			children = (
+				254A572A23B4B19A00DC060A /* Firebase26 */,
+				254A574423B4B19E00DC060A /* Firebase26Tests */,
+				254A574F23B4B19E00DC060A /* Firebase26UITests */,
+				254A572923B4B19A00DC060A /* Products */,
+				7D7082AEDFF8CE1C37C40801 /* Pods */,
+				8DFD03FD65748C7E310CC3B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		254A572923B4B19A00DC060A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254A572823B4B19A00DC060A /* Firebase26.app */,
+				254A574123B4B19E00DC060A /* Firebase26Tests.xctest */,
+				254A574C23B4B19E00DC060A /* Firebase26UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		254A572A23B4B19A00DC060A /* Firebase26 */ = {
+			isa = PBXGroup;
+			children = (
+				254A572B23B4B19A00DC060A /* AppDelegate.swift */,
+				254A572D23B4B19A00DC060A /* SceneDelegate.swift */,
+				254A572F23B4B19A00DC060A /* ViewController.swift */,
+				254A573123B4B19A00DC060A /* Main.storyboard */,
+				254A573723B4B19E00DC060A /* Assets.xcassets */,
+				254A573923B4B19E00DC060A /* LaunchScreen.storyboard */,
+				254A573C23B4B19E00DC060A /* Info.plist */,
+				254A575E23B4B33D00DC060A /* GoogleService-Info.plist */,
+				254A573423B4B19A00DC060A /* Firebase26.xcdatamodeld */,
+			);
+			path = Firebase26;
+			sourceTree = "<group>";
+		};
+		254A574423B4B19E00DC060A /* Firebase26Tests */ = {
+			isa = PBXGroup;
+			children = (
+				254A574523B4B19E00DC060A /* Firebase26Tests.swift */,
+				254A574723B4B19E00DC060A /* Info.plist */,
+			);
+			path = Firebase26Tests;
+			sourceTree = "<group>";
+		};
+		254A574F23B4B19E00DC060A /* Firebase26UITests */ = {
+			isa = PBXGroup;
+			children = (
+				254A575023B4B19E00DC060A /* Firebase26UITests.swift */,
+				254A575223B4B19E00DC060A /* Info.plist */,
+			);
+			path = Firebase26UITests;
+			sourceTree = "<group>";
+		};
+		7D7082AEDFF8CE1C37C40801 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A65DB31A933AE63FC144E2F /* Pods-Firebase26.debug.xcconfig */,
+				54CD3A5B826A494A558BEB4D /* Pods-Firebase26.release.xcconfig */,
+				1B52CE458113E729F43928A0 /* Pods-Firebase26-Firebase26UITests.debug.xcconfig */,
+				D3082572DACEA2EB9EEC860C /* Pods-Firebase26-Firebase26UITests.release.xcconfig */,
+				9E0A1BC96FF10EB4F3DEE239 /* Pods-Firebase26Tests.debug.xcconfig */,
+				A00AB56108D9D4B82A0E6541 /* Pods-Firebase26Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DFD03FD65748C7E310CC3B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13CEEA99041A4EC408D5BD7E /* Pods_Firebase26.framework */,
+				B09F4A37C4C4428A6A6B5444 /* Pods_Firebase26_Firebase26UITests.framework */,
+				7E16641E69A9C4070A8A815B /* Pods_Firebase26Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		254A572723B4B19A00DC060A /* Firebase26 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254A575523B4B19E00DC060A /* Build configuration list for PBXNativeTarget "Firebase26" */;
+			buildPhases = (
+				2EA774369FBDC0A8F5944A75 /* [CP] Check Pods Manifest.lock */,
+				254A572423B4B19A00DC060A /* Sources */,
+				254A572523B4B19A00DC060A /* Frameworks */,
+				254A572623B4B19A00DC060A /* Resources */,
+				D9642134F7A7BC1D758D8A94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firebase26;
+			productName = Firebase26;
+			productReference = 254A572823B4B19A00DC060A /* Firebase26.app */;
+			productType = "com.apple.product-type.application";
+		};
+		254A574023B4B19E00DC060A /* Firebase26Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254A575823B4B19E00DC060A /* Build configuration list for PBXNativeTarget "Firebase26Tests" */;
+			buildPhases = (
+				4AD45C7A17F387B2261D1501 /* [CP] Check Pods Manifest.lock */,
+				254A573D23B4B19E00DC060A /* Sources */,
+				254A573E23B4B19E00DC060A /* Frameworks */,
+				254A573F23B4B19E00DC060A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254A574323B4B19E00DC060A /* PBXTargetDependency */,
+			);
+			name = Firebase26Tests;
+			productName = Firebase26Tests;
+			productReference = 254A574123B4B19E00DC060A /* Firebase26Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		254A574B23B4B19E00DC060A /* Firebase26UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254A575B23B4B19E00DC060A /* Build configuration list for PBXNativeTarget "Firebase26UITests" */;
+			buildPhases = (
+				D79DCD11B62034812053A91D /* [CP] Check Pods Manifest.lock */,
+				254A574823B4B19E00DC060A /* Sources */,
+				254A574923B4B19E00DC060A /* Frameworks */,
+				254A574A23B4B19E00DC060A /* Resources */,
+				218B2A905C01E54ABADCA63D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254A574E23B4B19E00DC060A /* PBXTargetDependency */,
+			);
+			name = Firebase26UITests;
+			productName = Firebase26UITests;
+			productReference = 254A574C23B4B19E00DC060A /* Firebase26UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		254A572023B4B19A00DC060A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Nikunj Prajapati";
+				TargetAttributes = {
+					254A572723B4B19A00DC060A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					254A574023B4B19E00DC060A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 254A572723B4B19A00DC060A;
+					};
+					254A574B23B4B19E00DC060A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 254A572723B4B19A00DC060A;
+					};
+				};
+			};
+			buildConfigurationList = 254A572323B4B19A00DC060A /* Build configuration list for PBXProject "Firebase26" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 254A571F23B4B19A00DC060A;
+			productRefGroup = 254A572923B4B19A00DC060A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				254A572723B4B19A00DC060A /* Firebase26 */,
+				254A574023B4B19E00DC060A /* Firebase26Tests */,
+				254A574B23B4B19E00DC060A /* Firebase26UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		254A572623B4B19A00DC060A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254A573B23B4B19E00DC060A /* LaunchScreen.storyboard in Resources */,
+				254A575F23B4B33D00DC060A /* GoogleService-Info.plist in Resources */,
+				254A573823B4B19E00DC060A /* Assets.xcassets in Resources */,
+				254A573323B4B19A00DC060A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A573F23B4B19E00DC060A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A574A23B4B19E00DC060A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		218B2A905C01E54ABADCA63D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase26-Firebase26UITests/Pods-Firebase26-Firebase26UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase26-Firebase26UITests/Pods-Firebase26-Firebase26UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase26-Firebase26UITests/Pods-Firebase26-Firebase26UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EA774369FBDC0A8F5944A75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase26-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD45C7A17F387B2261D1501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase26Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D79DCD11B62034812053A91D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase26-Firebase26UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9642134F7A7BC1D758D8A94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase26/Pods-Firebase26-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase26/Pods-Firebase26-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase26/Pods-Firebase26-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		254A572423B4B19A00DC060A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254A573623B4B19A00DC060A /* Firebase26.xcdatamodeld in Sources */,
+				254A573023B4B19A00DC060A /* ViewController.swift in Sources */,
+				254A572C23B4B19A00DC060A /* AppDelegate.swift in Sources */,
+				254A572E23B4B19A00DC060A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A573D23B4B19E00DC060A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254A574623B4B19E00DC060A /* Firebase26Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254A574823B4B19E00DC060A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254A575123B4B19E00DC060A /* Firebase26UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		254A574323B4B19E00DC060A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254A572723B4B19A00DC060A /* Firebase26 */;
+			targetProxy = 254A574223B4B19E00DC060A /* PBXContainerItemProxy */;
+		};
+		254A574E23B4B19E00DC060A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254A572723B4B19A00DC060A /* Firebase26 */;
+			targetProxy = 254A574D23B4B19E00DC060A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		254A573123B4B19A00DC060A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254A573223B4B19A00DC060A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		254A573923B4B19E00DC060A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254A573A23B4B19E00DC060A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		254A575323B4B19E00DC060A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		254A575423B4B19E00DC060A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		254A575623B4B19E00DC060A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A65DB31A933AE63FC144E2F /* Pods-Firebase26.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firebase26/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.Firebase26;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		254A575723B4B19E00DC060A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CD3A5B826A494A558BEB4D /* Pods-Firebase26.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firebase26/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.Firebase26;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		254A575923B4B19E00DC060A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0A1BC96FF10EB4F3DEE239 /* Pods-Firebase26Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firebase26Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.Firebase26Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase26.app/Firebase26";
+			};
+			name = Debug;
+		};
+		254A575A23B4B19E00DC060A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00AB56108D9D4B82A0E6541 /* Pods-Firebase26Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firebase26Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.Firebase26Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase26.app/Firebase26";
+			};
+			name = Release;
+		};
+		254A575C23B4B19E00DC060A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B52CE458113E729F43928A0 /* Pods-Firebase26-Firebase26UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firebase26UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.Firebase26UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Firebase26;
+			};
+			name = Debug;
+		};
+		254A575D23B4B19E00DC060A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3082572DACEA2EB9EEC860C /* Pods-Firebase26-Firebase26UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Firebase26UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikunj.Firebase26UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Firebase26;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		254A572323B4B19A00DC060A /* Build configuration list for PBXProject "Firebase26" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254A575323B4B19E00DC060A /* Debug */,
+				254A575423B4B19E00DC060A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254A575523B4B19E00DC060A /* Build configuration list for PBXNativeTarget "Firebase26" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254A575623B4B19E00DC060A /* Debug */,
+				254A575723B4B19E00DC060A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254A575823B4B19E00DC060A /* Build configuration list for PBXNativeTarget "Firebase26Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254A575923B4B19E00DC060A /* Debug */,
+				254A575A23B4B19E00DC060A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254A575B23B4B19E00DC060A /* Build configuration list for PBXNativeTarget "Firebase26UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254A575C23B4B19E00DC060A /* Debug */,
+				254A575D23B4B19E00DC060A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		254A573423B4B19A00DC060A /* Firebase26.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				254A573523B4B19A00DC060A /* Firebase26.xcdatamodel */,
+			);
+			currentVersion = 254A573523B4B19A00DC060A /* Firebase26.xcdatamodel */;
+			path = Firebase26.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 254A572023B4B19A00DC060A /* Project object */;
+}

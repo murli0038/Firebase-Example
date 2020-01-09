@@ -1,0 +1,6 @@
+framework module Pods_Firebase26 {
+  umbrella header "Pods-Firebase26-umbrella.h"
+
+  export *
+  module * { export * }
+}
